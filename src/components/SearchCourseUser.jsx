@@ -2,7 +2,8 @@ import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
 //const API_BASE_URL = 'http://localhost:8000/search-users';
-const API_BASE_URL = 'https://graduate-tracer-2024-server.vercel.app/search-users';
+const API_BASE_URL =
+  'https://graduate-tracer-2024-server.vercel.app/search-course';
 
 const initialSearchParams = {
   campus: '',
